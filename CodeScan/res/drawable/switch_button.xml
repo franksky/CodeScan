@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 默认时的背景图片 -->
+    <item android:state_pressed="false" android:drawable="@drawable/mmtitle_bg_alpha_white" />
+
+    <!-- 按下时的背景图片 -->
+    <item android:state_pressed="true" android:drawable="@drawable/mmtitle_bg_alpha" />
+    <item android:drawable="@drawable/mmtitle_bg_alpha_white" />
+</selector>

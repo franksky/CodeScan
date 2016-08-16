@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">项目管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="scan_text">请将二维码放入框内</string>
+    <string name="menu_scan_title">扫一扫</string>
+    <string name="menu_setting_title">设置</string>
+    <string name="menu_setting_sub_version">应用信息</string>
+    <string name="menu_setting_sub_login">登录</string>
+    <string name="menu_setting_sub_exit">退出</string>
+    <string name="login_no_user">未登录</string>
+    <string name="time_format">HH:mm:ss</string>
+    <string name="no_record">无记录</string>
+    <string name="status_sending">同步中</string>
+    <string name="status_ok">完成</string>
+    <string name="menu_setting_sub_logout">注销</string>
+    <string name="login_user_hint">手机号</string>
+    <string name="login_passwd_hint">密码</string>
+    <string name="login_title">用户登录</string>
+    <string name="dialog_button_ok">确定</string>
+    <string name="dialog_button_cancel">取消</string>
+    <string name="dialog_msg_logout_confirm">注销用户将重新加载扫描记录</string>
+    <string name="dialog_msg_logout_title">注销用户</string>
+    <string name="dialog_msg_exit_confirm">结束该应用</string>
+    <string name="dialog_msg_exit_title">退出</string>
+    <string name="dialog_msg_version_confirm">当前版本: V1.3.0</string>
+    <string name="dialog_msg_version_title">应用信息</string>
+    <string name="dialog_msg_scan_confirm">未登录，是否现在登录</string>
+    <string name="dialog_msg_scan_title">二维码扫描</string>
+    <string name="dialog_msg_relogin_confirm">重新登录将注销当前账号</string>
+    <string name="dialog_msg_login_success_confirm">登录成功</string>
+    <string name="dialog_msg_login_fail_confirm">用户名，密码错误。请重新登录。</string>
+    <string name="back_to_total">返回</string>
+    <string name="switch_all">全部</string>
+    <string name="switch_local">本地</string>
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">生成</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="cancel">取消</string>
+    <string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>
+    <string name="button_ok">确定</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="num">号码:</string>
+</resources>

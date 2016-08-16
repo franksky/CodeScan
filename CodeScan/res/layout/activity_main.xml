@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <com.frank.codescan.view.MySwitch
+        android:id="@+id/my_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/header_divier"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/my_switch"
+        android:background="#444444" />
+
+    <LinearLayout
+        android:id="@+id/no_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/footer_divier"
+        android:layout_below="@+id/header_divier"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lib_story_message_nodata"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/no_record"
+            android:textColor="@android:color/secondary_text_dark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footer_divier"
+        android:layout_below="@+id/header_divier" />
+
+    <View
+        android:id="@+id/footer_divier"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/time_clock"
+        android:background="#444444" />
+
+    <TextClock
+        android:id="@+id/time_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date_clock"
+        android:layout_centerHorizontal="true"
+        android:format12Hour="HH:mm:ss"
+        android:format24Hour="HH:mm:ss"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/background_dark"
+        android:textSize="35sp"
+        android:typeface="serif" />
+
+    <TextClock
+        android:id="@+id/date_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:format12Hour="yyyy-MM-dd"
+        android:format24Hour="yyyy-MM-dd"
+        android:includeFontPadding="false"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:typeface="serif" />
+</RelativeLayout>
